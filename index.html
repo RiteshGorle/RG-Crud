@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>User login</title>
+
+<!------------CSS--------------->
+	<link rel="stylesheet" href="style.css">
+
+<!------------font-awesome--------------->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+.fa { font-size: 100px; }
+</style>
+	
+	
+</head>
+<body>
+	<div class="Head">
+
+         <legend class="login">User Login </legend> <br>
+         
+
+         <i class="fa fa-user-o" ></i> <br> <br>
+
+        <form autocomplete="off" action="#" >
+                <div class="input-group mb-3"> 
+                  <input class="form-control bg-transparent border-dark border-right-0" type="email" placeholder="Your Email Address" aria-label="Email Address"> <br>
+              
+               <input type="text"   placeholder="Username"> <br>
+
+               <input type="text" name="numbers" pattern="[0-9]*" title="numbers only" placeholder="Contact No."> <br>
+
+              <input type="Password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$"  title="Minimum eight characters, at least one uppercase letter, one lowercase letter and one number"title="numbers only" placeholder="Password">   <br>
+
+                  <div class="input-group-append">
+                  	<input type="button" value="Submit" class="button_active" onclick="location.href='company.html';" />
+     
+                  </div>
+                </div>
+              </form> <br> <br>
+
+		
+<p> <strong>Note:</strong> If you  directly click submit button without filling any information then, it will show you next page (Company page). since there is no back-end attached.</p>
+         
+      
+        
+         
+</div>
+
+
+</body>
+</html>
